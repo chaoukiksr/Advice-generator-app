@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+
+  <div class="row d-flex text-center align-items-center justify-content-center min-vh-100">
+    <div class="col-12 col-md-6 col-lg-4 ">
+      <div class="card" id="adviceCard">
+        <div class="header border-0 p-2">
+          Advice #<span id="number"></span>
+        </div>
+        <div class="">
+          <p class="quote manrope-bold"  id="quoteText">
+            
+          </p>
+          <img src="/images/pattern-divider-desktop.svg" alt="" width="100%">
+          <div class="btn" id="btn"><img src="/images/icon-dice.svg" alt="Dice Icon"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/chaoukiksr">Chaouki Kessouri</a>.
+  </div>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

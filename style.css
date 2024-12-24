@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+:root{
+   --Light-Cyan: hsl(193, 38%, 86%);
+   --Neon-Green: hsl(150, 100%, 66%);
+--Grayish-Blue: hsl(217, 19%, 38%);
+--Dark-Grayish-Blue: hsl(217, 19%, 24%);
+--Dark-Blue: hsl(218, 23%, 16%)
+}
+.manrope-bold {
+  font-family: "Manrope", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body{
+   background-color: var(--Dark-Blue);
+   height: 100vh;
+   font-family: 'Manrope', sans-serif;
+
+}
+#adviceCard{
+   background-color: var(--Dark-Grayish-Blue);
+   padding: 1.1rem;
+   color: var(--Light-Cyan);
+   font-family: 'Manrope', sans-serif;
+   box-shadow: rgba(0, 0, 0, 0.153) 0px 5px 20px;
+}
+.quote{
+   color: var(--Light-Cyan);
+   font-size: 1rem;
+   font-weight: 700;
+}
+.header{
+   font-weight: 600;
+   color: var(--Neon-Green);
+   letter-spacing: 4px;
+   font-size: 14px;
+}
+#btn{
+   background-color: var(--Neon-Green);
+   padding: 10px;
+   border-radius: 100%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   transform: translateY(40px);
+}
+
+#btn:hover{
+   background-color: var(--Neon-Green);
+      box-shadow: var(--Neon-Green) 0px 5px 15px;
+}
+nav{
+   border-bottom: .2px solid var(--Neon-Green) ;
+}
