@@ -14,8 +14,6 @@ This project is a web application that fetches and displays random pieces of adv
 - [Attribution](#attribution)
 
 ## Demo
-![Advice Generator Preview](./images/demo-preview.png)
-
 Visit the live demo [here](https://chaoukiksr.github.io/Advice-generator-app/).
 
 ## Features
