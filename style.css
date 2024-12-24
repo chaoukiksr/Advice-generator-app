@@ -9,7 +9,7 @@
 
 body{
    background-color: var(--Dark-Blue);
-   height: 100vh;
+   min-height: 100vh;
    font-family: "Manrope", serif;
 
 }
@@ -21,7 +21,7 @@ body{
 }
 .quote{
    color: var(--Light-Cyan);
-   font-size: 1rem;
+   font-size: 28px;
    font-weight: 700;
 }
 .header{
